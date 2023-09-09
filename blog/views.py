@@ -25,3 +25,4 @@ def archive(request, year):
 
 def pageNotFound(request, exception):
     return HttpResponseNotFound('<h1>The page not found!</h1>')
+
